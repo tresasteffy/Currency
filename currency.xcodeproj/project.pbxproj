@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1850B8C12CC76DBE00227FD7 /* Exceptions for "currency" folder in "currency" target */ = {
+		1850B8C12CC76DBE00227FD7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18EED3D52CC671F40075B81D /* currency */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1850B8C12CC76DBE00227FD7 /* Exceptions for "currency" folder in "currency" target */,
-			);
-			path = currency;
-			sourceTree = "<group>";
-		};
-		18EED3E72CC671F60075B81D /* currencyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = currencyTests;
-			sourceTree = "<group>";
-		};
-		18EED3F12CC671F60075B81D /* currencyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = currencyUITests;
-			sourceTree = "<group>";
-		};
+		18EED3D52CC671F40075B81D /* currency */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (1850B8C12CC76DBE00227FD7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = currency; sourceTree = "<group>"; };
+		18EED3E72CC671F60075B81D /* currencyTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = currencyTests; sourceTree = "<group>"; };
+		18EED3F12CC671F60075B81D /* currencyUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = currencyUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = 18EED3CE2CC671F40075B81D /* Build configuration list for PBXProject "currency" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = 18EED3CA2CC671F40075B81D;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 18EED3D42CC671F40075B81D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
